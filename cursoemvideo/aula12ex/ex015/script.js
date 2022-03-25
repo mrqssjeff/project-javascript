@@ -36,7 +36,6 @@ function verificar() {
                 
             }else if(idade < 55){
                 img.setAttribute('src', 'adulta.png')
-
             }else{
                 img.setAttribute('src', 'idosa.png')
 
@@ -45,6 +44,5 @@ function verificar() {
         res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} com ${idade} anos`
         res.appendChild(img)
-
     }
 }
